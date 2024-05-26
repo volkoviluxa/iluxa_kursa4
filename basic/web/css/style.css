@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Стили для шапки */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.marketplace-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.marketplace-description {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Стили для карточек товаров */
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.product-title {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.product-short-description {
+  color: #666;
+  font-size: 1em;
+}
+
+.product-full-description {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.product-price {
+  font-size: 1.2em;
+  color: #008000;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-seller {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.product-category {
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+}
+
+/* Стили для подвала */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
