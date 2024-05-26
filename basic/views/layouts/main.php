@@ -38,6 +38,12 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
 <li><?= Html::a('Логин',  ['/site/login']) ?></li>
 
+<div >
+    <?= Breadcrumbs::widget([
+        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+    ]) ?>
+    <?= $content ?>
+</div>
 
 
 <div class="footer">
