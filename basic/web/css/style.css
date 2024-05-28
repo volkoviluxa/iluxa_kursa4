@@ -3,10 +3,64 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Стили для шапки */
-.header {
+.container {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: black;
+}
+
+.head {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.marketplace-title {
+  margin-top: 50px;
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.marketplace-description {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.home-link {
+  margin-right: auto;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.auth-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-link, .register-link {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login-link:hover, .register-link:hover, .home-link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .marketplace-title {
@@ -76,14 +130,15 @@ body {
 
 /* Стили для подвала */
 .footer {
-  background-color: #333;
-  color: #fff;
+  background: black;
+  color: white;
   text-align: center;
   padding: 10px 0;
 }
 
 .footer-text {
   margin: 0;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
